@@ -880,7 +880,6 @@ html {
         color: white; }
         header nav li .cc__header___store_btn:hover {
           color: #eaa000; }
-        }
   header .cc__header___hero {
     min-height: 2rgb(255, 0, 0) }
     header .cc__header___hero::before {
@@ -948,8 +947,15 @@ html {
       justify-content: center; } }
   
   @media screen and (max-width: 640px) {
-    .cc__header___hero__widget h1, .cc__header___hero__widget p, .cc__header___hero__widget i {
+    .cc__header___hero__widget h1, .cc__header___hero__widget p {
       display: none; } }
+
+  @media screen and (max-width: 600px) {
+    .cc__header___hero__logo img {
+      width: 200px;
+      height: auto;
+    }
+  }
   
   
   .cc__index___grid {
