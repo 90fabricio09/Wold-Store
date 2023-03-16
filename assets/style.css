@@ -952,7 +952,7 @@ html {
 
   @media screen and (max-width: 600px) {
     .cc__header___hero__logo img {
-      width: 200px;
+      width: 190px;
       height: auto;
     }
   }
